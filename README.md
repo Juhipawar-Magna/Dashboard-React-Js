@@ -1,3 +1,20 @@
+# Getting Started with Create Django Rest Api 
+
+In the project directory, you can activate the enviroment:
+
+### `dash/scripts/activate`
+
+In the project directory,you can 
+
+In the project directory, you can run:
+
+### ` python manage.py runserver`
+
+Runs the Rest Api in the development server.\
+Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view it in your browser.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
