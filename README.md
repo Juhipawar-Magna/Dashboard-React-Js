@@ -1,10 +1,12 @@
 # Getting Started with Create Django Rest Api 
 
-In the project directory, you can activate the enviroment:
+In the project directory,firstly  you can activate the enviroment:
 
 ### `dash/scripts/activate`
 
-In the project directory,you can 
+In the project directory,you can direct to the full path:
+
+### `cd backend`
 
 In the project directory, you can run:
 
