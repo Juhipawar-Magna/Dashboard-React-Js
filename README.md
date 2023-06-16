@@ -1,16 +1,24 @@
 # Getting Started with Create Django Rest Api 
 
-In the project directory,firstly  you can activate the enviroment:
+First clone the repository from Github and switch to the new directory:
+
+### `$ cd {{ project_name }}`
+
+In the project directory,firstly activate the virtualenv for your project.:
 
 ### `dash/scripts/activate`
 
 In the project directory,you can direct to the full path:
 
-### `cd backend`
+### `$ cd backend`
 
-In the project directory, you can run:
+Then simply apply the migrations:
 
-### ` python manage.py runserver`
+### `$ python manage.py migrate`
+
+In the project directory, You can now run the development server::
+
+### ` $ python manage.py runserver`
 
 Runs the Rest Api in the development server.\
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view it in your browser.
