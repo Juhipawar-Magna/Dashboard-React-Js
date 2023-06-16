@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.Nav__warpper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* width: 10% */
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #333;
+  margin: 0 1rem 0 0;
+}
+.Nav__warpper a {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.Logo {
+  margin: 1rem;
+}
