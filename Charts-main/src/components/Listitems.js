@@ -98,7 +98,7 @@ const Additems = ({ onAdd }) => {
         assigned_user,
         total_test_excuted,
         test_passed,
-        test_failed,
+        test_failed: total_test_excuted - test_passed,
       };
       
       createItem(item)
@@ -130,7 +130,7 @@ const Additems = ({ onAdd }) => {
       assigned_user,
       total_test_excuted,
       test_passed,
-      test_failed, 
+      test_failed: total_test_excuted - test_passed, 
     };
     updateItem(id, item)
       .then((res) => refreshItems())
@@ -260,7 +260,7 @@ const Additems = ({ onAdd }) => {
               <Form.Control
                 type="text"
                 placeholder="Enter testfailed"
-                value={test_failed}
+                value={total_test_excuted - test_passed}
                 onChange={(e) => setTestfailed(e.target.value)} 
                 isInvalid={!!errors.test_failed} 
                 />
